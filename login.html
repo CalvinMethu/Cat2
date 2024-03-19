@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>My first website</title>
+    
+  </head>
+  <body>
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+      }
+      .button{
+        padding-top: 10px;
+        padding-left: 90px;
+       
+        
+      }
+      .box{
+        border: 100px;
+        background-color: rgb(50, 9, 88);
+        padding-left: 10px;
+        height: 32vh;
+        width: 350px;
+        border-color: black;
+        text-align: left;
+        
+      
+      }
+     
+    </style>
+
+      
+    </style>
+    <div class="box">
+    <form action="action_page.php" method="POST">
+      <div class="name">
+        <label for="fname"><span class="Namee">Name:</span></label>
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="Name"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="emailid">Email ID:</label>
+        <input
+          type="text"
+          id="lname"
+          name="lname"
+          placeholder="Email ID"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="phone">phone:</label>
+        <input
+          type="password"
+          id="pass"
+          name="pass"
+          maxlength="12"
+          required
+          placeholder="phone"
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="password">pass:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Set password"
+        />
+      </div>
+      <br />
+      <div class="button">
+        <button>Register</button>
+      </div>
+
+      <br />
+    </form>
+  </div>
+  </body>
+</html>
